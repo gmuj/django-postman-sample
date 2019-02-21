@@ -122,7 +122,7 @@ TEMPLATE_LOADERS = (
     'django.template.loaders.app_directories.Loader',
 )
 
-LOGIN_URL = "/account/login"
+LOGIN_URL = "/account/login/"
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
